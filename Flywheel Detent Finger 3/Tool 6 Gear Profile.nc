@@ -10,7 +10,7 @@
 (`fixture lower:  X0. Y0. Z0.)
 (`fixture upper:  X0. Y0. Z0.)
 
-(`tool T11 D=0.508 CR=0. - flat end mill)
+(`tool T6 D=0.508 CR=0. - flat end mill)
 N10 G90 G94 G17 G49 G69 G40 G80 G91.1 G91.4
 N15 G21
 N20 M119 P30
@@ -37,7 +37,7 @@ N40 G00 A0. C0.
 N45 G69
 
 (3D Contour6)
-N50 T11 M06
+N50 T6 M06
 N55 S28500 M03
 N60 G54
 (angles: A90. C0.)
@@ -46,7 +46,7 @@ N70 G00 A90. C0.
 N75 G68.2 X0. Y0. Z0. I180. J90. K180.
 N80 G53.1
 N85 G7 P4 Q1
-N90 G43 H11
+N90 G43 H06
 N95 G0.1 X-2.8 Y20.293 Z27.5
 N100 G00 Z8.374
 N105 G01 Z7.387 F71.
